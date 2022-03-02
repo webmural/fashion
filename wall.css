@@ -3,10 +3,6 @@
   font-size: calc(1em + 2vmin + 3vmax);
 }
 
-:any-link {
-  font-size: max(0.5rem, 44px);
-}
-
 :focus {
   outline-style: dashed;
   outline-width: thick;
@@ -22,32 +18,42 @@ figure {
   padding-block-end: 3rem;
 }
 
-data::first-letter {
+strong {
   font-size: 1.618em;
 }
 
-@media (min-width: 50em) {
-  data {
-    letter-spacing: 0.618em;
-  }
-}
-
 blockquote {
-  align-items: center;
   display: flex;
   flex-flow: column;
-  font-size: 2em;
   font-weight: bold;
   justify-content: center;
-  margin-block-start: 33vh;
-  margin-block-end: 33vh;
+}
+
+.runway {
+  align-self: center;
+  align-items: center;
+  font-size: 2em;
+  margin-block-start: 13vh;
+  margin-block-end: 21vh;
+}
+
+.hand {
+  font-size: 1.618em;
+  margin-block-start: 2em;
+}
+
+.subway {
+  font-size: 2em;
 }
 
 figcaption {
-  max-width: 10em;
   position: absolute;
-  top: 100vh;
+  top: 143vh;
   padding: 5vmin;
   font-family: monospace;
   font-size: .5rem;
+}
+
+aside {
+  margin-block-start: 50vh;
 }
