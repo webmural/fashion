@@ -3,9 +3,12 @@
   font-size: calc(1em + 2vmin + 3vmax);
 }
 
+:any-link {
+  text-decoration: wavy underline;
+}
+
 :focus {
-  outline-style: dashed;
-  outline-width: thick;
+  outline: thick dashed;
 }
 
 body {
@@ -39,11 +42,15 @@ blockquote {
 
 .hand {
   font-size: 1.618em;
-  margin-block-start: 2em;
+  margin-block-start: 3em;
 }
 
 .subway {
   font-size: 2em;
+}
+
+.flute {
+  display: flow-root;
 }
 
 figcaption {
